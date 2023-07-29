@@ -11,4 +11,15 @@ void SecondArrayWithIF(string[] array1, string[] array2)
             count++;
         }
     }
-
+}
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array1.Length;)
+    {
+        Console.Write("[" + string.Join(", ", array) + "]");
+        break;
+    }
+    Console.WriteLine();
+}
+SecondArrayWithIF(array1, array2);
+PrintArray(array2);
